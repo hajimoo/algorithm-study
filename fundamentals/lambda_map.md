@@ -2,12 +2,12 @@ Lambda & map(Python)
 
  <br />  Lambda: 정렬 key로 자주 사용
 
-함수로 key 지정
+함수로 key 지정<br />
 
-array = [('홍길동', 50), ('이순신', 32), ('아무도', 74)]
+array = [('홍길동', 50), ('이순신', 32), ('아무도', 74)]<br />
 def my_key(x):
-    return x[1]
-print(sorted(array, key=my_key))
+    return x[1]<br />
+print(sorted(array, key=my_key))<br />
 
 lambda로 축약
 print(sorted(array, key=lambda x: x[1]))
