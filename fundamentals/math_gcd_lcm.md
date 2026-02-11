@@ -1,7 +1,10 @@
-# math.gcd & LCM
+# GCD & LCM
 
-최대공약수(GCD): `math.gcd(a, b)`  
-최소공배수(LCM): `a*b // gcd(a,b)`
+> EN Summary: Use math.gcd for greatest common divisor. LCM = a*b // gcd(a,b).
+
+---
+
+## 코드
 
 ```python
 import math
@@ -12,8 +15,12 @@ def lcm(a, b):
 a = 21
 b = 14
 
-print(math.gcd(a, b))  # GCD
-print(lcm(a, b))       # LCM
-✅ 언제 쓰나?
+print(math.gcd(a, b))
+print(lcm(a, b))
+```
 
-비율/주기/나눗셈/약수 문제
+---
+
+## 시간복잡도
+
+- gcd: O(log N)
