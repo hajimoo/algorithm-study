@@ -1,4 +1,4 @@
-Lambda & map(Python) //
+Lambda & map(Python) <br />
 
 1) Lambda: 정렬 key로 자주 사용
 
