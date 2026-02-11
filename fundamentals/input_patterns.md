@@ -1,6 +1,7 @@
 # Input Patterns (Python)
 
-# 기본 입력 패턴
+
+##기본 입력 패턴
 ```python
 # 데이터 개수
 n = int(input())
