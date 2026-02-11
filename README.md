@@ -1,12 +1,23 @@
-# Algorithm Training Repository
+# Algorithm Training Lab
 
-This repository contains:
+This repository contains my algorithm training process for coding interviews (Japan / Global companies).
 
-- Greedy algorithm practices
-- Implementation simulation problems
-- Graph traversal (DFS/BFS)
+## Focus Areas
+
+- Greedy algorithms
+- Implementation & Simulation
 - Time complexity analysis
+- Graph traversal (DFS/BFS)
+- Data structures
 
-Goal:
-To improve problem-solving skills for coding interviews
-(Japan / Global tech companies).
+## Study Method
+
+1. Analyze constraints
+2. Estimate time complexity
+3. Identify problem pattern
+4. Implement
+5. Compare with reference solution
+6. Reflect and improve
+
+The goal is not just solving problems,
+but improving structured problem-solving skills.
