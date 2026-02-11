@@ -3,6 +3,7 @@ Lambda & map(Python)
  <br />  Lambda: 정렬 key로 자주 사용
 
 함수로 key 지정
+
 array = [('홍길동', 50), ('이순신', 32), ('아무도', 74)]
 def my_key(x):
     return x[1]
