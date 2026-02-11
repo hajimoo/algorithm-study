@@ -39,6 +39,3 @@ queue.reverse()
 print(queue)
 ✅ deque는 popleft가 O(1)에 가까워서 효율적
 
-
----
-
