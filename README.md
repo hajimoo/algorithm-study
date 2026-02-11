@@ -42,6 +42,8 @@ This repository documents my algorithm study notes and solutions for coding inte
 - [Simulation Template](implementation/simulation_template.md)
 - [Time (contains '3')](implementation/time_contains_3.md)
 - [Royal Knight](implementation/royal_knight.md)
+- [String Reorder](implementation/string_reorder.md)
+
 
 ### Graph
 - [Stack / Queue / deque](graph/stack_queue_deque.md)
