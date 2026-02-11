@@ -1,0 +1,59 @@
+# Grid Movement (상하좌우)
+
+## 핵심
+- 반복 기준은 격자가 아니라 “명령 리스트”
+- 경계 밖 이동은 무시
+
+## List Mapping Version
+```python
+n = int(input())
+plans = input().split()
+
+dx = [0, 0, -1, 1]
+dy = [-1, 1, 0, 0]
+move_types = ['L', 'R', 'U', 'D']
+
+x, y = 1, 1
+
+for plan in plans:
+    nx, ny = x, y
+    for i in range(4):
+        if plan == move_types[i]:
+            nx = x + dx[i]
+            ny = y + dy[i]
+            break
+
+    if nx < 1 or ny < 1 or nx > n or ny > n:
+        continue
+
+    x, y = nx, ny
+
+print(x, y)
+Dictionary Mapping (추천)
+n = int(input())
+plans = input().split()
+
+move = {
+    'L': (0, -1),
+    'R': (0, 1),
+    'U': (-1, 0),
+    'D': (1, 0),
+}
+
+x, y = 1, 1
+
+for p in plans:
+    dx, dy = move[p]
+    nx, ny = x + dx, y + dy
+
+    if 1 <= nx <= n and 1 <= ny <= n:
+        x, y = nx, ny
+
+print(x, y)
+실수 방지 체크리스트
+반복 기준: n ❌ / plans ⭕
+
+경계 체크가 “이동 수행 전에” 있는가?
+
+시작 좌표 (1,1) 맞는가?
+
