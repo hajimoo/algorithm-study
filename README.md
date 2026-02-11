@@ -40,7 +40,6 @@ This repository documents my algorithm study notes and solutions for coding inte
 
 ### Implementation
 - [Simulation Template](implementation/simulation_template.md)
-- [Up/Down/Left/Right](implementation/up_down_left_right.md)
 - [Time (contains '3')](implementation/time_contains_3.md)
 - [Royal Knight](implementation/royal_knight.md)
 
