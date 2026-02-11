@@ -8,8 +8,8 @@ def my_key(x):
     return x[1]<br />
 print(sorted(array, key=my_key))<br />
 
-lambda로 축약<br />
-print(sorted(array, key=lambda x: x[1]))
+lambda로 축약
+<br />print(sorted(array, key=lambda x: x[1]))
 
 사용 기준:
 재사용 필요 없음 → lambda
