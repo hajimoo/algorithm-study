@@ -1,23 +1,22 @@
 # Algorithm Training Lab
 
-This repository contains my algorithm training process for coding interviews (Japan / Global companies).
+This repository documents my structured algorithm training for coding interviews (Japan / Global companies).
 
-## Focus Areas
+## Goals
+- Strengthen problem-solving skills
+- Improve time complexity estimation
+- Develop structured thinking
+- Practice greedy / implementation / graph algorithms
 
-- Greedy algorithms
-- Implementation & Simulation
-- Time complexity analysis
-- Graph traversal (DFS/BFS)
-- Data structures
+## Study Process
 
-## Study Method
+1. Read problem carefully
+2. Check constraints
+3. Estimate time complexity
+4. Identify algorithm pattern
+5. Implement solution
+6. Compare with reference solution
+7. Reflect on improvement points
 
-1. Analyze constraints
-2. Estimate time complexity
-3. Identify problem pattern
-4. Implement
-5. Compare with reference solution
-6. Reflect and improve
-
-The goal is not just solving problems,
-but improving structured problem-solving skills.
+This repository focuses not only on solving problems,
+but on improving engineering thinking.
