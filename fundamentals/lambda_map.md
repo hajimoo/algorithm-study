@@ -9,7 +9,7 @@ def my_key(x):
     return x[1]<br />
 print(sorted(array, key=my_key))<br />
 
-lambda로 축약
+lambda로 축약<br />
 print(sorted(array, key=lambda x: x[1]))
 
 사용 기준:
