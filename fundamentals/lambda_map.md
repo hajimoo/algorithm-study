@@ -15,11 +15,13 @@ print(sorted(array, key=lambda x: x[1]))
 재사용 필요 없음 → lambda
 재사용 필요<br />가독성 중요 → 함수
 
-map: 여러 리스트에 함수 적용
+map: 여러 리스트에 함수 적용<br />
 list1 = [1,2,3,4,5]
+<br />
 list2 = [6,7,8,9,10]
-
+<br />
 result = map(lambda a, b: a + b, list1, list2)
+<br />
 print(list(result))
-
+<br />
 map은 “각 원소에 함수 적용”할 때 유용
