@@ -1,6 +1,14 @@
 # Lambda & map (Python)
 
-Lambda: 정렬 `key`로 자주 사용
+> EN Summary: Usage of lambda expressions and the map function in Python, commonly applied in sorting and functional-style transformations during coding tests.
+
+---
+
+## Key Idea
+
+- `lambda`는 간단한 함수를 한 줄로 정의할 때 사용
+- 정렬의 `key` 인자로 자주 사용됨
+- `map()`은 iterable의 각 원소에 함수를 적용할 때 사용
 
 ---
 
@@ -27,7 +35,7 @@ print(sorted(array, key=lambda x: x[1]))
 
 ---
 
-## 사용 기준
+## 언제 lambda를 쓰는가?
 
 - 재사용 필요 없음 → `lambda`
 - 재사용 필요 / 가독성 중요 → 일반 함수
@@ -35,8 +43,6 @@ print(sorted(array, key=lambda x: x[1]))
 ---
 
 ## 3️⃣ map 사용 예시
-
-map: 여러 리스트에 함수 적용
 
 ```python
 list1 = [1, 2, 3, 4, 5]
@@ -48,7 +54,14 @@ print(list(result))
 
 ---
 
-## map은 언제 쓰나?
+## 언제 map을 쓰는가?
 
-👉 "각 원소에 함수 적용"할 때 유용  
-👉 반복문을 줄이고 싶을 때 사용
+- 각 원소에 동일한 연산을 적용할 때
+- 반복문을 간결하게 표현하고 싶을 때
+
+---
+
+## Complexity
+
+- `sorted()` → O(N log N)
+- `map()` → O(N)
