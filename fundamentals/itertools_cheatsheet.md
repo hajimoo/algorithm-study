@@ -1,6 +1,6 @@
 itertools Cheatsheet (Perm/Comb)
 
-## 1) 순열 permutations
+1) 순열 permutations
 ```python
 from itertools import permutations
 data = ['A', 'B', 'C']
