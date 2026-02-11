@@ -3,7 +3,7 @@
 
 ##기본 입력 패턴
 ```python
-# 데이터 개수
+### 데이터 개수
 n = int(input())
 # 공백 구분 정수 리스트
 data = list(map(int, input().split()))
