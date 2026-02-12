@@ -47,6 +47,10 @@ This repository documents my algorithm study notes and solutions for coding inte
 
 ### Graph
 - [Stack / Queue / deque](graph/stack_queue_deque.md)
+- [DFS / BFS Intro](graph/02_dfs_bfs_intro.md)
+- [Recursion](graph/03_recursion.md)
+- [DFS](graph/04_dfs.md)
+- [BFS](graph/05_bfs.md)
 ## How to Read This Repo
 - Each note includes: Key idea → Implementation → Complexity → Pitfalls/Reflections.
 - I focus on fast recall for online coding tests (Japan / Global companies).
