@@ -1,14 +1,15 @@
 # Stack / Queue / deque
 
-> EN Summary: Basic stack and queue implementation in Python. Use list for stack and collections.deque for queue for O(1) operations.
+> EN Summary: Basic stack and queue implementation in Python. Use `list` for stack and `collections.deque` for queue to achieve O(1) operations.
 
 ---
 
-## Stack (LIFO)
+## 1. Stack (LIFO)
 
-- Last In First Out
-- 파이썬에서는 list로 구현 가능
-- append() / pop() 모두 O(1)
+**Last In First Out**
+
+- Python에서는 `list`로 구현
+- `append()` / `pop()` → O(1)
 
 ```python
 stack = []
@@ -26,21 +27,24 @@ stack.append(1)
 stack.append(4)
 stack.pop()
 
-# 출력
-print(stack[::-1])  # 최상단부터 출력
-print(stack)        # 최하단부터 출력
+print(stack[::-1])  # top부터 출력
+print(stack)        # bottom부터 출력
 ```
 
-### 시간복잡도
-- append(): O(1)
-- pop(): O(1)
+### Time Complexity
+
+| Operation | Complexity |
+|------------|------------|
+| append()   | O(1) |
+| pop()      | O(1) |
 
 ---
 
-## Queue (FIFO)
+## 2. Queue (FIFO)
 
-- First In First Out
-- list 대신 deque 사용 (성능 차이 중요)
+**First In First Out**
+
+- `list` 대신 `deque` 사용 (성능 차이 중요)
 
 ```python
 from collections import deque
@@ -60,10 +64,17 @@ queue.popleft()
 print(list(queue))
 ```
 
-### 왜 deque를 쓰는가?
+---
 
-- list.pop(0)은 O(N)
-- deque.popleft()는 O(1)
+## Why deque?
+
+| Structure | pop(0) | popleft() |
+|------------|--------|------------|
+| list       | O(N)   | ❌ |
+| deque      | -      | O(1) |
+
+- `list.pop(0)` → 전체 요소 이동 발생 (O(N))
+- `deque.popleft()` → O(1)
 - BFS 구현 시 필수
 
 ---
@@ -79,6 +90,7 @@ print(queue)
 
 ## 핵심 정리
 
-- 스택 → list 사용
-- 큐 → deque 사용
-- BFS는 deque가 사실상 필수
+- Stack → `list`
+- Queue → `deque`
+- BFS → `deque` 필수
+
