@@ -46,6 +46,12 @@ input = sys.stdin.readline
 line = input().rstrip()
 ```
 
+## 5️⃣ Read digits directly into a list
+
+```python
+
+graph.append(list(map(int, input())))
+
 ---
 
 ## When to Use Fast Input
