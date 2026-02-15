@@ -56,10 +56,10 @@ array = [5,7,9,0,3,1,6,2,4,8]
 
 def quick_sort(array, start, end):
 
-    if start >= end: #원소가 1개인 경우 종
+    if start >= end: #원소가 1개인 경우종료
         return
 
-    pivot = start # 피벗은 첫번째 원
+    pivot = start # 피벗은 첫번째원소
     left = start + 1
     right = end
 
@@ -71,7 +71,7 @@ def quick_sort(array, start, end):
         while right > start and array[right] >= array[pivot]:
             right -= 1
 
-        if left > right: # 엇갈렸다면 작은 데이터와 피벗을 교
+        if left > right: # 엇갈렸다면 작은 데이터와 피벗을교체
             array[right], array[pivot] = array[pivot], array[right]
         else: #엇갈리지 않았다면 작은 데이터와 큰 데이터을 교체
             array[left], array[right] = array[right], array[left]
