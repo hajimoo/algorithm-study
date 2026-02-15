@@ -54,6 +54,8 @@ graph.append(list(map(int, input())))
 
 ---
 
+
+
 ## When to Use Fast Input
 
 - 입력 줄 수가 많을 때 (예: 100,000 이상)
